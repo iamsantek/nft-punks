@@ -121,7 +121,7 @@ export default function Home() {
         network: "mumbai",
         providerOptions: {},
         disableInjectedProvider: false,
-      });
+      }) as any;
 
       connectWallet();
 
